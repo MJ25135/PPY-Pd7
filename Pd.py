@@ -58,9 +58,9 @@ treeview.column("status", width=100)
 def connect():
     return mysql.connector.connect(
         host="db4free.net",
-        user="s25135",
-        password="Hiaber123",
-        database="bazappy")
+        user="",
+        password="",
+        database="")
 
 
 def fetch_data() -> list[tuple]:
